@@ -1,0 +1,89 @@
+repo_name: hakanai/i18next-android
+report_id: db2e2c088f674295c803d59d1518cd04
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:32:20+00:00'
+requested_by: jeanregisser
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/i18next-android
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/i18next-android
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hakanai/i18next-android/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Jean Regisser
+  last_updated_on: 2015-09-01 16:00:30.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/hakanai/i18next-android/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Jean Regisser
+  last_updated_on: 2015-08-27 14:55:44.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/i18next-android/blob/master/i18next-android/build.gradle
+  detection_source: i18next-android/build.gradle
+  last_updated_by: Jean Regisser
+  last_updated_on: 2015-08-28 10:08:05.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/i18next-android/blob/master/i18next-android/build.gradle
+  detection_source: i18next-android/build.gradle
+  last_updated_by: Jean Regisser
+  last_updated_on: 2015-08-28 10:08:05.000000000 Z
